@@ -110,7 +110,7 @@ img {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #fff;  
-    padding: 2em 0;
+    padding: 2em 5em;
 	margin-top: 0;  
 }
 
@@ -118,7 +118,7 @@ img {
 	text-align: center;
 	background-color: #d6ecf9;
     color: #333;  
-    padding: 2em 0;
+    padding: 2em 5em;
 	margin-top: 30px;  
 }
 
