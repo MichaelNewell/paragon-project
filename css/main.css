@@ -165,3 +165,28 @@ img {
 	background: #333;
 	border-radius: .35em;
 }
+
+
+/* ==================== 
+  Media Queries
+==================== */
+
+@media (min-width: 769px) {
+	.header,
+    .row{
+		width: 90%;
+		margin: auto;
+	}
+	
+	.tagline {
+		font-size: 1.4em;
+	}
+}
+
+@media (min-width: 1025px) {
+	.header,
+	.row{
+		width: 80%;
+		max-width: 1150px;
+	}
+}
