@@ -28,6 +28,7 @@ a {
 h2,
 h3 {
 	margin-top: 0;
+	padding: 0;
 }
 a {
 	text-decoration: none;
@@ -110,7 +111,7 @@ img {
 
 .design-row  {
 	text-align: center;
-	background-color: #00e6e6;
+	background-color: #f8f8f8;
     color: #333;  
     padding: 2em 0;
 	margin-top: 30px;  
@@ -126,7 +127,7 @@ img {
     background: #333;
     color: #fff;
 	padding: 2em 0;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 /* ---- Page Elements ---- */
