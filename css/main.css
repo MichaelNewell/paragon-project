@@ -97,14 +97,21 @@ img {
 	padding-bottom: 20px;	
 }
 
-.support-row,
-.design-row  {
+.support-row {
 	text-align: center;
-    background-image: url("../img/3-index-jumbotron.jpg");
+    background-image: url("../img/support-background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #fff;  
+    padding: 2em 0;
+	margin-top: 30px;  
+}
+
+.design-row  {
+	text-align: center;
+	background-color: #00e6e6;
+    color: #333;  
     padding: 2em 0;
 	margin-top: 30px;  
 }
@@ -145,7 +152,7 @@ img {
 }
 
 .support-img,
-.design-img {
+.web-design-img {
     width: 800px;
 	border-radius: 5px;
 }
