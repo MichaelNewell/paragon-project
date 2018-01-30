@@ -79,8 +79,13 @@ img {
 /* -- Row Layout -- */
 
 .header {
+	background-color: #fff;
 	padding-top: .5em;
 	padding-bottom: .5em;
+}
+
+.background-row {
+	background-color: #d6ecf9;
 }
 
 .index-jumbotron,
@@ -106,12 +111,12 @@ img {
 	background-attachment: fixed;
 	color: #fff;  
     padding: 2em 0;
-	margin-top: 30px;  
+	margin-top: 0;  
 }
 
 .design-row  {
 	text-align: center;
-	background-color: #f8f8f8;
+	background-color: #d6ecf9;
     color: #333;  
     padding: 2em 0;
 	margin-top: 30px;  
@@ -185,7 +190,7 @@ img {
 		width: 90%;
 		margin: auto;
 	}
-	
+
 	.tagline {
 		font-size: 1.4em;
 	}
@@ -196,5 +201,10 @@ img {
 	.row{
 		width: 80%;
 		max-width: 1150px;
+	}
+
+	.row{
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 }
