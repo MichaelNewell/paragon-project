@@ -41,7 +41,8 @@ ul {
   }
 
 .tagline{
-	color: #000;
+	color: #fff;
+	text-shadow: -1px 0 #900, 0 1px #900, 1px 0 #900, 0 -1px #900;
 }
 
 .support-text,
@@ -146,7 +147,9 @@ img {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin-bottom: 48px;
+	padding: 12em 5em;
+	margin-bottom: 0;
+	height: 100%;
 }
 .company-name {
 	color: #900;
