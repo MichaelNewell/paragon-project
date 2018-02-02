@@ -21,7 +21,7 @@ p {
 h2,
 h3,
 a {
-	font-size: 1.25em; /* 30px/16=1.875em */
+	font-size: 1.25em; /* 24px/16=1.25em */
     color: #333;
     text-align: center;
 }
@@ -187,6 +187,19 @@ img {
 /* ==================== 
   Media Queries
 ==================== */
+@media (min-width: 240px) {
+	.header,
+    .row{
+		width: 90%;
+		margin: 20px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+	.background-row{padding: 20px;}
+}
+
 
 @media (min-width: 769px) {
 	.header,
@@ -198,6 +211,7 @@ img {
 	.tagline {
 		font-size: 1.4em;
 	}
+	.background-row{padding: 20px;}
 }
 
 @media (min-width: 1025px) {
