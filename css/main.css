@@ -21,6 +21,7 @@ p {
 h2,
 h3,
 a {
+	font-size: 1.25em; /* 30px/16=1.875em */
     color: #333;
     text-align: center;
 }
