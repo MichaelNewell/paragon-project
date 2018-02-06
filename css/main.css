@@ -112,6 +112,11 @@ img {
 	padding-left: 1em;
 }
 
+.primary,
+.secondary{
+	padding-right: 2em;
+}
+
 .support-row {
 	text-align: center;
     background-image: url("../img/support-background.jpg");
