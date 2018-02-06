@@ -46,8 +46,13 @@ ul {
 	text-shadow: -1px 0 #900, 0 1px #900, 1px 0 #900, 0 -1px #900;
 }
 
+.support-hook{
+	text-align: center;
+}
+
 .support-text,
-.design-text {color: #900;
+.design-text {text-align: center;
+	color: #900;
 	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
@@ -88,7 +93,15 @@ img {
 
 .background-row {
 	background-color: #d6ecf9;
+	text-align: center;
+	padding: 2em 5em;
 }
+
+.button-align {
+	background-color: #d6ecf9;
+	text-align: center;
+	padding: 0em 5em;
+	}
 
 .index-jumbotron,
 .footer {
@@ -96,6 +109,7 @@ img {
     }
 
 .column {
+	text-align: left;
 	padding-right: 1em;
 	padding-left: 1em;
 }
