@@ -61,11 +61,14 @@ ul {
 
 .support-hook{
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0;
 }
 
 .support-text,
 .design-text {text-align: center;
 	color: #900;
+	padding-top: 0;
 	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 }
 
@@ -228,6 +231,8 @@ img {
 	background-color: #333;
     color: #fff;
 	transition: left 400ms linear;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .slide {
@@ -235,10 +240,14 @@ img {
 	width: 960px;
 	height: 300px;
 	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 #slider-nav {
 	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 #slider-nav a {
@@ -252,11 +261,15 @@ img {
 	display: inline-block;
 	line-height: 2;
 	margin-right: 0.5em;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 #slider-nav a.current {
 	border-color: #af0007;
 	color: #af0007;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 /* ==================== 
