@@ -25,7 +25,7 @@ Slider.prototype = {
 	
 	slide: function( element ) {
 		var self = this;
-		element.addEventListener( "click", function( e ) {
+		element.addEventListener( "click", function(e) {
 			e.preventDefault();
 			var a = this;
 			self.setCurrentLink( a );
