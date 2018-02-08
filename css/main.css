@@ -126,6 +126,7 @@ img {
 	text-align: left;
 	padding-right: 1em;
 	padding-left: 1em;
+	padding-bottom: 1em;
 }
 
 .primary,
@@ -238,7 +239,7 @@ img {
 .slide {
 	float: left;
 	width: 960px;
-	height: 300px;
+	height: 100%;
 	position: relative;
 	margin-bottom: 0;
 	padding-bottom: 0;
