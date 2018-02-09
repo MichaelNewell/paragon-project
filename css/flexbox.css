@@ -18,6 +18,10 @@
 	}
 
 	.column {
+<<<<<<< HEAD
+=======
+		flex: 1 50%;
+>>>>>>> 7db980befd83486486588f46e37c9191cc7e4be9
 		flex-wrap: wrap;
 	}
 
