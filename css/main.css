@@ -127,6 +127,7 @@ img {
 	padding-right: 1em;
 	padding-left: 1em;
 	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 .primary,
@@ -294,6 +295,8 @@ img {
     .row{
 		width: 90%;
 		margin: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
 	.tagline {

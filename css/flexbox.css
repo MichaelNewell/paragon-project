@@ -2,7 +2,7 @@
   Media Queries
 ==================== */
 
-@media (min-width: 769px) {
+@media (min-width: 240px) {
 	.header,
 	.main-nav,
     .row,
@@ -19,6 +19,7 @@
 
 	.column {
 		flex: 1 50%;
+		flex-wrap: wrap;
 	}
 
     .row, 
