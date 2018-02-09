@@ -289,9 +289,34 @@ img {
 
 	.column{width: 100%;}
 
-	.tagline {
-		font-size: 1.4em;
+	.company-name{
+		font-size: 3em;
 	}
+
+	.tagline {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 2em;
+		margin-bottom: 1.8em;
+	}
+
+	h2,
+	h3,
+	a {
+		font-size: 2.5em; /* 40px/16=1.25em */
+	}
+
+	h4,
+	.support-hook {
+		font-size: 1.75em;
+	}
+	
+	.support-text,
+	.design-text {
+		font-size: 3em;
+}
 
 @media (min-width: 1025px) {
 	.header,
@@ -305,8 +330,33 @@ img {
 	.two-column{width: 50%;
 		padding-bottom: 0px;
 	}
+
+	.company-name{
+		font-size: 3.13em;
+	}
 			
 	.tagline {
 		font-size: 1.4em;
 	}
+
+	p {
+		font-size: .95em;
+		margin-bottom: 1.8em;
+	}
+
+	h2,
+	h3,
+	a {
+		font-size: 1.25em; /* 24px/16=1.25em */
+	}
+
+	h4,
+	.support-hook {
+		font-size: 1em;
+	}
+	
+	.support-text,
+	.design-text {
+		font-size: 2.25em;
+}
 }
