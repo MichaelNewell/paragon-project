@@ -287,18 +287,7 @@ img {
 	.support-row,
 	.two-column{padding-bottom: 20px;}
 
-<<<<<<< HEAD
 	.column{width: 100%;}
-=======
-@media (min-width: 769px) {
-	.header,
-    .row{
-		width: 90%;
-		margin: auto;
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
->>>>>>> 7db980befd83486486588f46e37c9191cc7e4be9
 
 	.tagline {
 		font-size: 1.4em;
