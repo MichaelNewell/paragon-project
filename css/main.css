@@ -126,6 +126,8 @@ img {
 	text-align: left;
 	padding-right: 1em;
 	padding-left: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 .primary,
@@ -238,7 +240,7 @@ img {
 .slide {
 	float: left;
 	width: 960px;
-	height: 300px;
+	height: 100%;
 	position: relative;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -282,34 +284,29 @@ img {
 		margin: 20px;
 	}
 
-	.tagline {
-		font-size: 1.4em;
-	}
-	.background-row{padding: 20px;}
-}
+	.support-row,
+	.two-column{padding-bottom: 20px;}
 
-@media (min-width: 769px) {
-	.header,
-    .row{
-		width: 90%;
-		margin: auto;
-	}
+	.column{width: 100%;}
 
 	.tagline {
 		font-size: 1.4em;
 	}
-	.background-row{padding: 20px;}
-}
 
 @media (min-width: 1025px) {
 	.header,
 	.row{
-		width: 80%;
-		max-width: 1150px;
+		width: 90%;
+		margin: auto;
 	}
 
-	.row{
-		padding-top: 30px;
-		padding-bottom: 30px;
+	.column{width: 33.33%;}
+
+	.two-column{width: 50%;
+		padding-bottom: 0px;
+	}
+			
+	.tagline {
+		font-size: 1.4em;
 	}
 }
