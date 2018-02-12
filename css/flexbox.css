@@ -12,7 +12,8 @@
 		display: flex;
 	}
 
-	.header {
+	.header,
+	.main-nav {
 		flex-direction: row;
 		justify-content: space-between;
 	}
@@ -38,7 +39,8 @@
 
 @media (min-width: 1025px) {
 
-	.header {
+	.header,
+	.main-nav {
 		flex-direction: row;
 		justify-content: space-between;
 	}
