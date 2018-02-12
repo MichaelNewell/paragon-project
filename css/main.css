@@ -65,7 +65,6 @@ ul {
 	padding-bottom: 0;
 }
 
-.support-text,
 .design-text {text-align: center;
 	color: #900;
 	padding-top: 0;
@@ -311,7 +310,13 @@ img {
 	.support-hook {
 		font-size: 1.75em;
 	}
-	
+
+	.support-text {text-align: center;
+		color: #fff;
+		padding-top: 0;
+		text-shadow: -1px 0 #900, 0 1px #900, 1px 0 #900, 0 -1px #900;
+	}
+
 	.support-text,
 	.design-text {
 		font-size: 3em;
@@ -366,8 +371,11 @@ img {
 	}
 	
 	.support-text,
-	.design-text {
+	.design-text {text-align: center;
 		font-size: 2.25em;
+		color: #900;
+		padding-top: 0;
+		text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 	}
 
 	.testimony,
