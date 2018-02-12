@@ -86,7 +86,6 @@ img {
 }
 
 .main-nav a {
-    font-size: .95em;
     text-align: center;
     text-transform: uppercase;
     color: #900;
@@ -282,6 +281,10 @@ img {
 		margin: 20px;
 	}
 
+	.main-nav a {
+		font-size: 1.5em;
+	}
+
 	.support-row,
 	.two-column{padding-bottom: 20px;}
 
@@ -338,6 +341,10 @@ img {
 	.row{
 		width: 90%;
 		margin: auto;
+	}
+
+	.main-nav a {
+		font-size: .95em;
 	}
 
 	.column{width: 33.33%;}
