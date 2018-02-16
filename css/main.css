@@ -177,7 +177,7 @@ img {
 }
 
 .index-jumbotron {
-	background-image: url("../img/index-jumbotron.jpg");
+	background-image: url("../img/support-background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -214,6 +214,41 @@ img {
 	padding: .625em 1.25em;
 	background: #333;
 	border-radius: .35em;
+}
+
+/* ---- Sub-Page Elements ---- */
+.subPageHeader{
+	background-color: #d6ecf9;
+	align-content: center;
+	padding: 20px;
+}
+
+.page-img{
+	display: block;
+	margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	border-radius: 5px;
+}
+
+.subPageTitle{
+	font-size: 2em;
+    color: #af0007;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.subPageText{
+	font-size: 1.12em;
+	background-color: #fff;
+	color: #333;
+	padding: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 4em;
+	margin-right: 4em;
 }
 
 /* ==================== 
