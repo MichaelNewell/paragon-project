@@ -334,7 +334,8 @@ img {
 
 	.column{width: 100%;}
 
-	.company-name{
+	.company-name,
+	.subPageTitle{
 		font-size: 3em;
 	}
 
@@ -379,6 +380,9 @@ img {
 		height: 430px;
 		margin-bottom: 10px;
 	}
+
+
+
 	
 @media (min-width: 1025px) {
 	.header,
@@ -441,4 +445,5 @@ img {
 		height: 150px;
 		margin-bottom: 20px;
 	}
+
 }
