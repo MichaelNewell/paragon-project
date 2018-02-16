@@ -113,6 +113,7 @@ img {
 
 .button-align {
 	text-align: center;
+	padding-bottom: 10px;
 	}
 
 .index-jumbotron,
@@ -217,19 +218,23 @@ img {
 }
 
 /* ---- Sub-Page Elements ---- */
-.subPageHeader{
+.subPageMain{
 	background-color: #d6ecf9;
 	align-content: center;
-	padding: 20px;
+	margin-top: 0px;
+}
+
+.page-img-bg{
+	width: 100%;
+	background-color: #333;
+	margin-bottom: 10px;
 }
 
 .page-img{
 	display: block;
-	margin-top: 2em;
-    margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
     width: 40%;
-	border-radius: 5px;
 }
 
 .subPageTitle{
