@@ -75,6 +75,8 @@ img {
 	max-width: 100%;
 }
 
+.copy{text-align: left;}
+
 /* ==================== 
   Base Layout Styles
 ==================== */
@@ -257,8 +259,24 @@ img {
 	margin-right: 4em;
 }
 
-.sysReq{padding-left: 20px;
-padding-right: 20px;}
+.subPageBenefits{
+	font-size: 1.12em;
+	background-color: #333;
+	color: #fff;
+	padding: .7em 1.5em;
+	border: 2px solid #af0007;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+.sysReq{
+	font-size: .75em;
+	padding-left: 20px;
+	padding-right: 20px;}
+
+.email{font-size: 1em;}
 
 /* ==================== 
  Testimonial Slider
@@ -378,6 +396,8 @@ padding-right: 20px;}
 		font-size: 2em;
 	}
 
+	.email{font-size: 2em;}
+
 	/* ---- Slider @ 240 ---- */
 	#slider-wrapper {
 		height: 430px;
@@ -442,6 +462,8 @@ padding-right: 20px;}
 	.client-tag{
 		font-size: .95em;
 	}
+	
+	.email{font-size: 1em;}
 
 	/* ---- Slider @ 1025 ---- */
 	#slider-wrapper {
