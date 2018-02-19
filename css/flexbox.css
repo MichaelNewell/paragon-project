@@ -8,7 +8,8 @@
     .row,
 	.support-row,
 	.design-row,
-	.background-row{
+	.background-row,
+	.footer-nav{
 		display: flex;
 	}
 
@@ -35,6 +36,11 @@
         align-items: center;
 		justify-content: center;
 	}
+
+	.footer-nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
 }
 
 @media (min-width: 1025px) {
@@ -54,6 +60,11 @@
 		margin-top: auto;
         align-items: center;
 		justify-content: center;
+	}
+
+	.footer-nav {
+		flex-direction: row;
+		justify-content: space-around;
 	}
 
 }

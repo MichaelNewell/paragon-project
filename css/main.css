@@ -166,11 +166,33 @@ img {
 	margin-top: 10px;
 }
 
+/* ---- Footer Elements ---- */
+
 .footer {
     background: #333;
     color: #fff;
-	padding: 2em 0;
+	padding: 1em;
+	padding-bottom: 0px;
 	margin-top: 0px;
+}
+
+.footer-nav{
+	background: #fff;
+	color: #af0007;
+	margin-top: 5px;
+}
+
+.footer-nav a {
+    text-align: center;
+	text-transform: uppercase;
+	font-size: .75em;
+    color: #af0007;
+	display: block;
+	padding: 10px 15px;
+}
+
+.footer-nav a:hover {
+	color: #000;
 }
 
 /* ---- Page Elements ---- */
@@ -462,7 +484,7 @@ img {
 	.client-tag{
 		font-size: .95em;
 	}
-	
+
 	.email{font-size: 1em;}
 
 	/* ---- Slider @ 1025 ---- */
