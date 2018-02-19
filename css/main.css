@@ -300,6 +300,12 @@ img {
 
 .email{font-size: 1em;}
 
+.contact-tagline {
+	font-size: 1.5em;
+	text-align: center;
+	color: #333;
+}
+
 /* ==================== 
  Testimonial Slider
 ==================== */
@@ -384,6 +390,7 @@ img {
 
 	.tagline {
 		font-size: 2em;
+		text-align: center;
 	}
 
 	p {
@@ -454,6 +461,7 @@ img {
 			
 	.tagline {
 		font-size: 1.4em;
+		text-align: center;
 	}
 
 	p {
