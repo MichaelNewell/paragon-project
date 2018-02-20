@@ -241,6 +241,10 @@ img {
 	border-radius: .35em;
 }
 
+hr {
+	border-color: #af0007;
+	}
+
 /* ---- Sub-Page Elements ---- */
 .subPageMain{
 	background-color: #d6ecf9;
@@ -301,7 +305,6 @@ img {
 .email{font-size: 1em;}
 
 .contact-tagline {
-	font-size: 1.5em;
 	text-align: center;
 	color: #333;
 }
@@ -427,6 +430,10 @@ img {
 
 	.email{font-size: 2em;}
 
+	.contact-tagline {
+		font-size: 2.5em;
+	}
+
 	/* ---- Slider @ 240 ---- */
 	#slider-wrapper {
 		height: 430px;
@@ -494,6 +501,10 @@ img {
 	}
 
 	.email{font-size: 1em;}
+
+	.contact-tagline {
+		font-size: 1.25em;
+	}
 
 	/* ---- Slider @ 1025 ---- */
 	#slider-wrapper {
