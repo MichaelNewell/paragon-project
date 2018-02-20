@@ -434,6 +434,10 @@ hr {
 		font-size: 2.5em;
 	}
 
+	.footer-nav a {
+		font-size: 1.75em;
+	}
+
 	/* ---- Slider @ 240 ---- */
 	#slider-wrapper {
 		height: 430px;
@@ -504,6 +508,10 @@ hr {
 
 	.contact-tagline {
 		font-size: 1.25em;
+	}
+
+	.footer-nav a {
+		font-size: .75em;
 	}
 
 	/* ---- Slider @ 1025 ---- */
