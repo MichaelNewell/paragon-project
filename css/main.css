@@ -216,6 +216,8 @@ img {
 	margin-bottom: 0;
 }
 .column-img {
+	display: block;
+    margin: auto;
 	border-radius: 5px;
 }
 
@@ -443,9 +445,6 @@ hr {
 		height: 430px;
 		margin-bottom: 10px;
 	}
-
-
-
 	
 @media (min-width: 1025px) {
 	.header,
