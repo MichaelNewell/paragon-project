@@ -29,7 +29,7 @@ ENHANCEMENT LIST
 	c. Improved user interaction via forms, buttons, etc.
 	
 CODE LOUISVILLE PROJECT DOCUMENTATION
-This README file will include the following documentation to fulfill Code Louisville project requirements:
+README file will include the following documentation to fulfill Code Louisville project requirements:
 
 1. CSS selectors (3 minimum)
 	a. Found in "/css/main.css"
