@@ -26,7 +26,7 @@ ENHANCEMENT LIST
 4. Original design was not aesthetically pleasing, with limited user interaction. Redesigned.
 	a. Modern layout
 	b. Updated color scheme
-	c. Improved user interaction via forms, buttons, etc.
+	c. Improved user interaction via buttons
 	
 CODE LOUISVILLE PROJECT DOCUMENTATION
 README file will include the following documentation to fulfill Code Louisville project requirements:
