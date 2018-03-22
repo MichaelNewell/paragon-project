@@ -32,7 +32,7 @@ CODE LOUISVILLE PROJECT DOCUMENTATION
 README file will include the following documentation to fulfill Code Louisville project requirements:
 
 1. CSS selectors (3 minimum)
-	a. Found in "/css/main.css"
+	a. Found in "/css/main.css"- Examples classes: .support-row, .index-jumbotron, .slide, etc.
 	
 2. Javascript function (1 minimum) 
 	a. Created Testimonial slider on Index page. Found in "/js/reviewSlider.js"
